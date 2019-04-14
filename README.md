@@ -1,10 +1,10 @@
 # Event_App
 This repository contains the backend of Events App build using Django Rest Framework.
 
-<br>
+<br/>
 Language and Framework used: Python; Django Rest Framework (DRF)
 Database: SQLite
-<br>
+<br/>
 
 **Setup Process:**
 1.	Setup Virual environment for your OS platform or simply use docker. Activate the virtual environment. Or if using docker, simply run “docker-compose up”, then “docker exec -it web bash”
