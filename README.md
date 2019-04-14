@@ -1,8 +1,10 @@
 # Event_App
 This repository contains the backend of Events App build using Django Rest Framework.
 
+<br>
 Language and Framework used: Python; Django Rest Framework (DRF)
 Database: SQLite
+<br>
 
 **Setup Process:**
 1.	Setup Virual environment for your OS platform or simply use docker. Activate the virtual environment. Or if using docker, simply run “docker-compose up”, then “docker exec -it web bash”
@@ -12,6 +14,7 @@ Database: SQLite
 5.	python manage.py migrate
 6.	python manage.py createsuperuser
 7.	python manage.py runserver
+
 
 
 **After setup,**
@@ -31,6 +34,8 @@ In another tab:
   4.	Go to the step 1 admin page and see the database, inside Users -> Profile, there will be the entry of the registered user. Login with the same user using login API.
   5.	Change the preferences with setPreferences, though it will not reflect inside the database as the permissions are required from the frontend to redirect the user if authenticated.
   6.	For getEvents API, one needs to enter the external API credentials to get the data – using Postman.
+
+
 
 **Code:**
   1.	The eventapp is the root project folder. Users is the app (component in JS frameworks) folder.
