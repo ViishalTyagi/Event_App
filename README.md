@@ -3,6 +3,7 @@ This repository contains the backend of Events App build using Django Rest Frame
 
 <br/>
 Language and Framework used: Python; Django Rest Framework (DRF)
+
 Database: SQLite
 <br/>
 
@@ -16,7 +17,7 @@ Database: SQLite
 7.	python manage.py runserver
 
 
-
+<br/><br/>
 **After setup,**
   1.	Open http://127.0.0.1:8000/admin in your browser and login with credentials created in the step 6 above. You’ll see the database admin once logged in.
 In another tab:
