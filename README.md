@@ -4,7 +4,7 @@ This repository contains the backend of Events App build using Django Rest Frame
 Language and Framework used: Python; Django Rest Framework (DRF)
 Database: SQLite
 
-Setup Process:
+**Setup Process:**
 1.	Setup Virual environment for your OS platform or simply use docker. Activate the virtual environment. Or if using docker, simply run “docker-compose up”, then “docker exec -it web bash”
 2.	Then run: “python pip install -r requirements.txt”
 3.	cd eventapp
@@ -14,25 +14,25 @@ Setup Process:
 7.	python manage.py runserver
 
 
-After setup,
+**After setup,**
   1.	Open http://127.0.0.1:8000/admin in your browser and login with credentials created in the step 6 above. You’ll see the database admin once logged in.
 In another tab:
   2.	APIs:
-  	  <br/>
+  	  <br>
 	  http://127.0.0.1:8000/api/users/register/
-	  </br>
+	  <br>
 	  http://127.0.0.1:8000/api/users/login/
-	  </br>
+	  <br>
     	  http://127.0.0.1:8000/api/users/setPreferences/
-	  </br>
+	  <br>
     	  http://127.0.0.1:8000/api/users/getEvents/
-	  </br>
+	  <br>
   3.	Once you register the user (ignore the warning/error as this error is handled inside virtual environment – ‘venv’ directory – which is not supported currently in DRF).
   4.	Go to the step 1 admin page and see the database, inside Users -> Profile, there will be the entry of the registered user. Login with the same user using login API.
   5.	Change the preferences with setPreferences, though it will not reflect inside the database as the permissions are required from the frontend to redirect the user if authenticated.
   6.	For getEvents API, one needs to enter the external API credentials to get the data – using Postman.
 
-Code:
+**Code:**
   1.	The eventapp is the root project folder. Users is the app (component in JS frameworks) folder.
   2.	The routing is handled through urls.py files inside eventapp and users app.
   3.	The API structure for all the APIs is written in views.py inside Users app. The data is serialized and deserialized using serializers.py all inside the users app.
