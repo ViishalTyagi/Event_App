@@ -19,8 +19,9 @@ Database: SQLite
 
 <br/><br/>
 **After setup,**
-  1.	Open http://127.0.0.1:8000/admin in your browser and login with credentials created in the step 6 above. You’ll see the database admin once logged in.<br/><br/>
-In another tab:
+  1.	Open http://127.0.0.1:8000/admin in your browser and login with credentials created in the step 6 above. You’ll see the database admin once logged in.
+  <br/><br/>
+**In another tab:**
   2.	APIs:<br/>
   	  <br>
 	  http://127.0.0.1:8000/api/users/register/
