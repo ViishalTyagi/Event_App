@@ -19,9 +19,13 @@ After setup,
 In another tab:
   2.	APIs:
 	  http://127.0.0.1:8000/api/users/register/
+	  </br>
 	  http://127.0.0.1:8000/api/users/login/
-    http://127.0.0.1:8000/api/users/setPreferences/
-    http://127.0.0.1:8000/api/users/getEvents/
+	  </br>
+    	  http://127.0.0.1:8000/api/users/setPreferences/
+	  </br>
+    	  http://127.0.0.1:8000/api/users/getEvents/
+	  </br>
   3.	Once you register the user (ignore the warning/error as this error is handled inside virtual environment – ‘venv’ directory – which is not supported currently in DRF).
   4.	Go to the step 1 admin page and see the database, inside Users -> Profile, there will be the entry of the registered user. Login with the same user using login API.
   5.	Change the preferences with setPreferences, though it will not reflect inside the database as the permissions are required from the frontend to redirect the user if authenticated.
